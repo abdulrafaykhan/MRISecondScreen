@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/e"
+    tools:context="com.fyp.mrisecondscreen.LoginActivity"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pic2"
+        android:layout_marginTop="60dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColorHint="#cfcfcf"
+        android:contentDescription="@string/email_prompt"
+        android:ems="10"
+        android:hint="@string/email_prompt"
+        android:inputType="textPersonName"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#ffff"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:layout_marginTop="8dp"
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="@string/password_prompt"
+        android:textColorHint="#cfcfcf"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#ffff"
+        android:inputType="textPassword"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/login_prompt"
+        android:textSize="15dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/simple_text_color"
+        />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/fb_login"
+        android:layout_gravity="center"
+        android:background="@drawable/fb_rounded_button"
+        android:textSize="15dp"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_pre_prompt"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/simple_text_color"
+        />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_prompt"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/simple_text_color"
+        android:clickable="true"
+        android:onClick="reg_activity"
+        android:textAllCaps="true"
+        android:focusable="true"
+        />
+
+
+</LinearLayout>

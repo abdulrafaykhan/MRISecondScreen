@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MRISecondScreen</string>
+    <string name="email_prompt">Email/Username</string>
+    <string name="password_prompt">Password</string>
+    <string name="login_prompt">Log In</string>
+    <string name="register_pre_prompt">If you don\'t have an account then select</string>
+    <string name="register_prompt">Register</string>
+    <string name="or">OR</string>
+    <string name="fb_login">Log in with Facebook</string>
+    <string name="recording_prompt">Press the button to start recording</string>
+    <string name="record_prompt">Recording...</string>
+    <string name="recording_activity">Sync The Advert</string>
+    <string name="register_activity">Register</string>
+    <string name="initial_Register">Please enter the following details</string>
+</resources>
